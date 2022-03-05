@@ -10,7 +10,7 @@ func TestSoma(t *testing.T) {
 }
 
 func TestGreeting(t *testing.T) {
-	greet := greeting("any_name")
+	greet := Greeting("any_name")
 	if greet != "Hello any_name" {
 		t.Errorf("Greeting result is wrong. Result should be: %s", greet)
 	}
